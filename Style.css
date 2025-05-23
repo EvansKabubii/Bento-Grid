@@ -59,12 +59,48 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 40px;
+}
+
+.pic2 h2 {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+.pic2 h2 span {
+    color: #ffca6a;
+}
+
+.pic2 h2 #italy{
+    font-style: italic;
+    color: white;
+}
+.pic2 img {
+    width: 50%;
+}
+
+.pic2 p {
+    color: white;
 }
 
 .pic3 {
     grid-row: span 3;
     grid-column: span 1;
     background-color: #DCD1FC;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 40px;
+
+}
+
+.pic3 img {
+    width: 100%;
+    height: auto;
 }
 
 
