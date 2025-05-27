@@ -108,8 +108,22 @@ body {
     grid-row: span 2;
     grid-column: span 1;
     background-color: #FFCC69;
+    padding: 20px;
+    font-size: 40px;
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
 }
 
+.pic4 h3 {
+    font-weight: 500;
+    margin-bottom: auto;
+}
+
+.pic4 img {
+    height: 250px;
+    width: auto;
+}
 
 .pic5, .pic6, .pic7{
     grid-row: span 1;
@@ -117,7 +131,15 @@ body {
 }
 
 .pic5 {
+    
     background-color: white;
+    font-size: 30px;
+    /* overflow: hidden; */
+}
+
+.pic5 img {
+    width: auto;
+
 }
 
 .pic6 {
